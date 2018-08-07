@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rl_image"
+        android:visibility="visible"
+        android:layout_height="460dp">
+
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name" />
+
+
+        <VideoView
+            android:id="@+id/vv"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="20dp">
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload image"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="2dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_plus" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="2sp"
+                android:layout_toRightOf="@id/iv_image"
+                android:text="Upload Video"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/iv_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_plus" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

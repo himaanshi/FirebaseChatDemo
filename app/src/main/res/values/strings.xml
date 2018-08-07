@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FirebaseChatDemo</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="resend_phone_auth">Resend Phone</string>
+    <string name="verify_phone_auth">Verify Phone</string>
+    <string name="start_phone_auth">Start Phone Auth</string>
+    <string name="hint_verification_code">Verification code</string>
+    <string name="hint_phone_number">Enter Phone Number</string>
+    <string name="phone_title_text">Phone</string>
+    <string name="signed_out">Sign Out</string>
+    <string name="status_code_sent">Code sent</string>
+    <string name="status_verification_failed">Verification Failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="instant_validation">Instant Validation</string>
+    <string name="status_sign_in_failed">Sign In failed</string>
+    <string name="signed_in">Signed In</string>
+    <string name="firebase_status_fmt">Firebase status</string>
+</resources>
